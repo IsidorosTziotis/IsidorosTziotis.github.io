@@ -98,6 +98,11 @@ body {
     width: 100%;
     padding: 10px;
   }
+
+    .cv {
+    width: 200%;
+    padding: 0px;
+  }
 }
 </style>
 
