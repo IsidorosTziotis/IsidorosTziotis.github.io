@@ -94,7 +94,7 @@ body {
 }
 @media only screen and (max-width:500px) {
   /* For mobile phones: */
-  .menu, .main, .right {
+    .left, .right, .padding .cv .centered  .centered img {
     width: 100%;
     padding: 10px;
   }
