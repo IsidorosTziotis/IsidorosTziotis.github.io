@@ -26,7 +26,7 @@ document.write(`
 }
 
 .padding {
-  padding: 20px 350px;
+  padding: 20px 150px;
 }
 
 .cv {
