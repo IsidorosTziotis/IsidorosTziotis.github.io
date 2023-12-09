@@ -79,16 +79,13 @@ body {
   /* For mobile phones: */
 
   .margin-resume{
-      width: 100%;
   }
 
   .margin-home {
-      width: 100%;
       margin: 50%;
   }
 
   .margin-research{
-      width: 100%;
       margin: 35%;
   }
 
