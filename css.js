@@ -84,6 +84,7 @@ body {
 
   .margin-home {
       width: 70%;
+      padding 10px;
   }
 
   .margin-research{
