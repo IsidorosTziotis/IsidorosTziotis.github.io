@@ -40,18 +40,18 @@ body {
 @media (min-width:1281px) and (min-width:1025px){
   /* For desktop: */
 
-    .margin-0 {
+    .margin-resume {
         margin-left: 25%;
         margin-right: 25%;
     }
 
-   .margin-1 {
+   .margin-home {
         margin-left: 25%;
         margin-right: 25%;
         margin-top: 1%;
     }
 
-    .margin-2 {
+    .margin-research {
         margin-left: 25%;
         margin-right: 25%;
         margin-top: 2%;
@@ -78,10 +78,18 @@ body {
 @media (min-width:961px) and (min-width:641px) and (min-width:481px) and (min-width:320px)
   /* For mobile phones: */
 
-  .margin-0, ,margin-1, margin-2, .left .right {
-    width: 100%;
-    padding: 10px;
+  .margin-resume, .left, .right{
+      width: 100%;
   }
+
+  margin-home, margin-research{
+      width: 100%;
+      margin: 5%;
+  }
+   .left{
+      width 70%;
+   }
+
 }
 
 </style>
