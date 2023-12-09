@@ -91,15 +91,14 @@ body {
     padding-bottom: 10%;
   }
 
-  .margin-research{
+  .margin-research {
+    box-sizing: border-box; 
     width: 100%;
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 10%;
     padding-bottom: 10%;
   }
-  }
-
 }
 
 </style>
