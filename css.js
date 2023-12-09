@@ -37,7 +37,7 @@ body {
 
 
 
-@media only sceen and (min-width:481px) {
+@media all and (min-width:769px) {
   /* For desktop: */
 
     .margin-resume {
@@ -75,7 +75,7 @@ body {
 
 
 
-@media only sceen and (max-width:480px){
+@media all and (max-width:768px){
   /* For mobile phones: */
 
   .margin-resume{
@@ -83,12 +83,12 @@ body {
   }
 
   .margin-home {
-      width: 50%;
+      width: 100%;
       margin: 50%;
   }
 
   .margin-research{
-      width: 50%;
+      width: 100%;
       margin: 35%;
   }
 
