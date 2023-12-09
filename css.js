@@ -84,10 +84,10 @@ body {
 
   .margin-home .margin-research{
       width: 100%;
-      margin: 5%;
+      margin: 10%;
   }
    .left{
-      width 70%;
+      width 40%;
    }
 
 }
