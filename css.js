@@ -1,58 +1,54 @@
 document.write(`
+
+
 <style>
 
 * {
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+}
+
+.black{
+  background-color: #333; 
+}
+
+.middle {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 2%;
+    margin-bottom: 0%;
+    background-color: white; 
+}
+
+.main {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 1%;
+    margin-bottom: 0%;
+}
+
 /* Control the left side */
 .left {
-  float:left;
-  width:50%;
-    padding-top: 90px;
-    padding-right: 0px;
-    padding-bottom: 50px;
-    padding-left: 400px;
+    float:left;
+    width:30%;
+    margin-top: 7.5%;
 }
 
 /* Control the right side */
 .right {
-  float:right;
-  width:50%;
-  padding-top: 20px;
-  padding-right: 400px;
-  padding-bottom: 50px;
-  padding-left: 0px;
-}
-
-.padding {
-  padding: 20px 150px;
+    float:right;
+    width:70%;
 }
 
 .cv {
-  background-color: #333;   /*Color of the bar */
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 0%; 
 }
 
-/* If you want the content centered horizontally and vertically */
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-/* Style the image inside the centered container, if needed */
-.centered img {
-  width: 150px;
-  border-radius: 50%;
-}
-
-* {
-  box-sizing: border-box;
-}
-body {
-  margin: 0;
-}
 /* Style the header */
 .header {
   background-color: #f1f1f1;
@@ -78,6 +74,8 @@ body {
   background-color: #ddd;       /*Color when hovering (gray) */
   color: black;
 }
+
+
 @media only screen and (max-width:800px) {
   /* For tablets: */
   .main {
@@ -94,14 +92,9 @@ body {
 }
 @media only screen and (max-width:500px) {
   /* For mobile phones: */
-    .left, .right, .padding .cv .centered  .centered img {
+  .menu, .main, .right {
     width: 100%;
     padding: 10px;
-  }
-
-    .cv {
-    width: 200%;
-    padding: 0px;
   }
 }
 </style>
