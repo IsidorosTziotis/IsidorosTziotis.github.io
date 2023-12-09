@@ -78,17 +78,18 @@ body {
 @media (min-width:961px) and (min-width:641px) and (min-width:481px) and (min-width:320px)
   /* For mobile phones: */
 
-  .margin-resume .left .right{
+  .margin-resume{
       width: 100%;
   }
 
-  .margin-home .margin-research{
+  .margin-home {
       width: 100%;
       margin: 10%;
   }
-   .left{
-      width 40%;
-   }
+
+  .margin-research{
+    margin: 20%;
+  }
 
 }
 
