@@ -8,47 +8,6 @@ body {
   margin: 0;
 }
 
-@media (min-width:1281px){
-
-    .black{
-      background-color: #333; 
-    }
-
-    .middle {
-        margin-left: 25%;
-        margin-right: 25%;
-        margin-top: 2%;
-        margin-bottom: 0%;
-    }
-
-    .main {
-        margin-left: 25%;
-        margin-right: 25%;
-        margin-top: 1%;
-        margin-bottom: 0%;
-    }
-
-    /* Control the left side */
-    .left {
-        float:left;
-        width:30%;
-        margin-top: 7.5%;
-    }
-
-    /* Control the right side */
-    .right {
-        float:right;
-        width:70%;
-    }
-
-    .cv {
-        margin-left: 25%;
-        margin-right: 25%;
-        margin-bottom: 0%; 
-    }
-}
-
-
 
 /* Style the header */
 .header {
@@ -78,13 +37,48 @@ body {
 
 
 
-@media only screen and (max-width:800px) {
-  /* For tablets: */
+@media (min-width:1281px) and (min-width:1025px){
+  /* For desktop: */
 
+    .margin-0 {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+   .margin-1 {
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-top: 1%;
+    }
+
+    .margin-2 {
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-top: 2%;
+    }
+
+    .left {
+        float:left;
+        width:30%;
+        margin-top: 7.5%;
+    }
+
+    .right {
+        float:right;
+        width:70%;
+    }
+
+    .black{
+      background-color: #333; 
+    }
 }
-@media (min-width:320px)
+
+
+
+@media (min-width:961px) and (min-width:641px) and (min-width:481px) and (min-width:320px)
   /* For mobile phones: */
-  .black, .main, .left .right .cv {
+
+  .margin-0, ,margin-1, margin-2, .left .right {
     width: 100%;
     padding: 10px;
   }
