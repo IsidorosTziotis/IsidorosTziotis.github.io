@@ -101,10 +101,6 @@ body {
     padding-top: 5%;
     padding-bottom: 10%;
   }
-
-  .left{
-     width: 30%;
-  }
 }
 
 </style>
