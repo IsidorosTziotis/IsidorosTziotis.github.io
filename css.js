@@ -82,7 +82,7 @@ body {
       width: 100%;
   }
 
-  margin-home margin-research{
+  .margin-home .margin-research{
       width: 100%;
       margin: 5%;
   }
