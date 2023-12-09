@@ -83,12 +83,12 @@ body {
   }
 
   .margin-home {
-      width: 100%;
+      width: 50%;
       margin: 50%;
   }
 
   .margin-research{
-      width: 100%;
+      width: 50%;
       margin: 35%;
   }
 
