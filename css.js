@@ -85,14 +85,19 @@ body {
   .margin-home {
     box-sizing: border-box; 
     width: 100%;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
     padding-top: 10%;
     padding-bottom: 10%;
   }
 
   .margin-research{
-      width: 100%;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
   }
 
 }
