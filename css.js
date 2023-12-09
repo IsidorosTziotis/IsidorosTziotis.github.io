@@ -1,53 +1,54 @@
 document.write(`
-
-
 <style>
 
 * {
   box-sizing: border-box;
 }
-
 body {
   margin: 0;
 }
 
-.black{
-  background-color: #333; 
+@media (min-width:1281px){
+
+    .black{
+      background-color: #333; 
+    }
+
+    .middle {
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-top: 2%;
+        margin-bottom: 0%;
+    }
+
+    .main {
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-top: 1%;
+        margin-bottom: 0%;
+    }
+
+    /* Control the left side */
+    .left {
+        float:left;
+        width:30%;
+        margin-top: 7.5%;
+    }
+
+    /* Control the right side */
+    .right {
+        float:right;
+        width:70%;
+    }
+
+    .cv {
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-bottom: 0%; 
+    }
 }
 
-.middle {
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-top: 2%;
-    margin-bottom: 0%;
-    background-color: white; 
-}
 
-.main {
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-top: 1%;
-    margin-bottom: 0%;
-}
-
-/* Control the left side */
-.left {
-    float:left;
-    width:30%;
-    margin-top: 7.5%;
-}
-
-/* Control the right side */
-.right {
-    float:right;
-    width:70%;
-}
-
-.cv {
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-bottom: 0%; 
-}
 
 /* Style the header */
 .header {
@@ -76,17 +77,18 @@ body {
 }
 
 
+
 @media only screen and (max-width:800px) {
   /* For tablets: */
 
 }
-@media only screen and (max-width:500px) {
+@media (min-width:320px)
   /* For mobile phones: */
   .black, .main, .left .right .cv {
     width: 100%;
     padding: 10px;
   }
 }
-</style>
 
+</style>
 `);
