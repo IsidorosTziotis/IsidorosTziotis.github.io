@@ -81,7 +81,7 @@ body {
   /* For mobile phones: */
 
   .margin-resume{
-      width: 110%;
+      width: 100%;
   }
 
   .margin-home {
