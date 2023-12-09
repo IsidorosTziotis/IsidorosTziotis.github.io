@@ -83,12 +83,12 @@ body {
   }
 
   .margin-home {
-      box-sizing: border-box; 
-    width: 80%;
-    padding-left: 10%
+    box-sizing: border-box; 
+    width: 100%;
+    padding-left: 10%;
     padding-right: 10%;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 10%;
+    padding-bottom: 10%;
   }
 
   .margin-research{
