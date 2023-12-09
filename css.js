@@ -3,6 +3,7 @@ document.write(`
 
 * {
   box-sizing: border-box;
+   a { text-decoration: none; }
 }
 body {
   margin: 0;
