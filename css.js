@@ -18,7 +18,6 @@ body {
 /* Style the top navigation bar */
 .topnav {
   overflow: hidden;
-  position: fixed;
   background-color: #333;   /*Color of the bar */
 }
 /* Style the topnav links */
