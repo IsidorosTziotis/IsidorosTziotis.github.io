@@ -37,7 +37,7 @@ body {
 
 
 
-@media all and (min-width:1024px) {
+@media only sceen and (min-width:768px) {
   /* For desktop: */
 
     .margin-resume {
@@ -75,7 +75,7 @@ body {
 
 
 
-@media all and (min-width:0px) and (max-width:801px){
+@media only sceen and (min-width:0px) and (max-width:767px){
   /* For mobile phones: */
 
   .margin-resume{
