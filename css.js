@@ -78,21 +78,11 @@ body {
 
 @media only screen and (max-width:800px) {
   /* For tablets: */
-  .main {
-    width: 80%;
-    padding: 0;
-  }
-  .right {
-    width: 100%;
-  }
 
-    .menu, .main, .right {
-      padding: 10px;
-  }
 }
 @media only screen and (max-width:500px) {
   /* For mobile phones: */
-  .menu, .main, .right {
+  .black, .main, .left .right .cv {
     width: 100%;
     padding: 10px;
   }
