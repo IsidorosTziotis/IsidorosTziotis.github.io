@@ -80,6 +80,8 @@ body {
 @media all and (max-width:768px){
   /* For mobile phones: */
 
+  a { text-decoration: none; }
+  
   .margin-resume{
       width: 100%;
   }
