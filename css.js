@@ -20,6 +20,7 @@ body {
 .topnav {
   overflow: hidden;
   background-color: #333;   /*Color of the bar */
+  top 0%;
 }
 /* Style the topnav links */
 .topnav a {
@@ -80,7 +81,7 @@ body {
   /* For mobile phones: */
 
   .margin-resume{
-      width: 100%;
+      width: 110%;
   }
 
   .margin-home {
