@@ -75,7 +75,7 @@ body {
 
 
 
-@media (min-width:961px) and (min-width:641px) and (min-width:481px) and (min-width:320px)
+@media (min-width:961px) and (min-width:641px) and (min-width:481px) and (min-width:320px){
   /* For mobile phones: */
 
   .margin-resume{
