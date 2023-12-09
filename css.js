@@ -96,7 +96,7 @@ body {
     width: 100%;
     padding-left: 5%;
     padding-right: 5%;
-    padding-top: 10%;
+    padding-top: 5%;
     padding-bottom: 10%;
   }
 }
