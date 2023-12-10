@@ -10,19 +10,12 @@ body {
 }
 
 
-/* Style the header */
-.header {
-  background-color: #f1f1f1;
-  padding: 20px;
-  text-align: center;
-}
-/* Style the top navigation bar */
+
 .topnav {
   overflow: hidden;
   background-color: #333;   /*Color of the bar */
-  top 0%;
 }
-/* Style the topnav links */
+
 .topnav a {
   display: inline-block;
   list-style-type: none;
@@ -31,12 +24,15 @@ body {
   padding: 14px 16px;
   text-decoration: none;
 }
-/* Change color on hover */
+
 .topnav a:hover {
   background-color: #ddd;       /*Color when hovering (gray) */
   color: black;
 }
 
+.topnav a.active {
+  color: grey;                  /*Color of Active bar  (gray) */
+}
 
 
 @media all and (min-width:769px) {
@@ -70,8 +66,9 @@ body {
         width:70%;
     }
 
-    .black{
-      background-color: #333; 
+    .university_img {
+        width: 100%;
+        margin-top: 1%;
     }
 }
 
@@ -102,6 +99,11 @@ body {
     padding-right: 5%;
     padding-top: 5%;
     padding-bottom: 10%;
+  }
+
+  .university_img {
+        width: 100%;
+        margin-top: 10%;
   }
 }
 
