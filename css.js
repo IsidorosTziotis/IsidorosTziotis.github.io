@@ -66,6 +66,11 @@ body {
         width:70%;
     }
 
+    .profile_img {
+        width: 100%;
+    }
+
+
     .university_img {
         width: 100%;
         margin-top: 1%;
@@ -101,9 +106,13 @@ body {
     padding-bottom: 10%;
   }
 
+    .profile_img {
+        width: 80%;
+    }
+
   .university_img {
         width: 100%;
-        margin-top: 10%;
+        margin-top: 40%;
   }
 }
 
