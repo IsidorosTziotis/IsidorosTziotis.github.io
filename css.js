@@ -82,7 +82,7 @@ body {
 @media all and (max-width:768px){
   /* For mobile phones: */
 
-  box-sizing: border-box; 
+  
   a { text-decoration: none; }
   
   .margin-resume{
@@ -90,6 +90,7 @@ body {
   }
 
   .margin-profile{
+    box-sizing: border-box; 
     width: 100%;
     padding-left: 5%;
     padding-right: 5%;
@@ -98,6 +99,7 @@ body {
   }
 
   .margin-research {
+    box-sizing: border-box; 
     width: 100%;
     padding-left: 5%;
     padding-right: 5%;
