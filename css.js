@@ -43,7 +43,7 @@ body {
         margin-right: 25%;
     }
 
-   .margin-home {
+   .margin-profile {
         margin-left: 25%;
         margin-right: 25%;
         margin-top: 1%;
@@ -82,14 +82,14 @@ body {
 @media all and (max-width:768px){
   /* For mobile phones: */
 
+  box-sizing: border-box; 
   a { text-decoration: none; }
   
   .margin-resume{
       width: 100%;
   }
 
-  .margin-home {
-    box-sizing: border-box; 
+  .margin-profile{
     width: 100%;
     padding-left: 5%;
     padding-right: 5%;
@@ -98,7 +98,6 @@ body {
   }
 
   .margin-research {
-    box-sizing: border-box; 
     width: 100%;
     padding-left: 5%;
     padding-right: 5%;
