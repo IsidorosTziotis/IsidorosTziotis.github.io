@@ -10,7 +10,6 @@ body {
 }
 
 
-
 .topnav {
   overflow: hidden;
   background-color: #333;   /*Color of the bar */
@@ -47,12 +46,14 @@ body {
         margin-left: 25%;
         margin-right: 25%;
         margin-top: 1%;
+        margin-bottom: 3%;
     }
 
     .margin-research {
         margin-left: 25%;
         margin-right: 25%;
         margin-top: 2%;
+        margin-bottom: 3%;
     }
 
     .left {
